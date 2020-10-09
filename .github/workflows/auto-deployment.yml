@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: FranzDiebold/github-env-vars-action@v1.0.0
+      - uses: FranzDiebold/github-env-vars-action@v1.2.1
       - name: Run deployment script
         uses: appleboy/ssh-action@master
         with:
